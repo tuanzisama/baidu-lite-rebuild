@@ -4,7 +4,8 @@
 
 
 # 一些注意的事项
-- 目前的版本需要Tampermonkey + Stylish共同作用，当然，你也可以不适用Tampermonkey，只不过广告不会自动做小罢了。
+- 目前的版本需要Tampermonkey + Stylish共同作用，当然，你也可以不使用Tampermonkey，只不过广告不会自动缩小罢了
+- 未来可能会出Chrome扩展或优化到Tampermonkey或Stylish二者之中
 
 
 ---
