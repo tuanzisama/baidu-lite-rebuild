@@ -1,9 +1,8 @@
 // ==UserScript==
 // @name         Baidu Lite Rebuild 百度轻·重构
-// @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  优化百度搜索
-// @author       You
+// @author       tuanzisama
 // @match        http://baidu.com/*
 // @match        http://www.baidu.com/*
 // @match        https://www.baidu.com/*
