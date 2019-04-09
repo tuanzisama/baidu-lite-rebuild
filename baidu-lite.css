@@ -2243,7 +2243,7 @@ html {
     top: 0;
     height: 100%;
     width: 5px;
-    background: red;
+    background: #F56C6C;
     border-radius: 0 5px 5px 0;
 }
 
@@ -2278,7 +2278,7 @@ html {
     top: 0;
     height: 100%;
     width: 5px;
-    background: red;
+    background: #F56C6C;
     border-radius: 0 5px 5px 0;
 }
 
@@ -2437,3 +2437,90 @@ html {
 #head {
     min-height: 0;
 }
+
+/* 移除 分页 默认内边距 */
+#page {
+    padding: 0;
+}
+
+/* 移除 底部 默认内边距 */
+#help {
+    padding: 0 !important;
+}
+
+/* 优化 网页搜索 图片显示 */
+.op-img-address-desktop-cont>div {
+    display: inline-block;
+}
+
+.op-img-address-desktop-cont>div>a {
+    display: inline;
+}
+
+/* 优化 网页搜索 搜索结果涉及价格仅作参考，请以商家官网为准 字样 */
+.hint_common_restop {
+    margin: 5px 0 10px 0;
+}
+
+/* 优化 ======== 咨询搜索结果 ======= */
+
+
+/* 优化 百度原生响应式 */
+.container_s,
+.container_l {
+    width: calc(100% - 240px) !important;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1005px) {
+    .container_s {
+        width: 96% !important;
+        margin: 0 auto;
+    }
+
+    body {
+        min-width: 0;
+    }
+}
+
+
+/* 优化 百家号显示方式 */
+/* .c-container .f13+span:not(class|=c-),
+.c-container .f13+span:not(class|=c-) {
+    font-size: 20px;
+}
+
+.c-container .f13 .c-showurl span {
+    color: red;
+}
+
+.c-container .f13 .c-showurl span:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: #E6A23C;
+    border-radius: 0 5px 5px 0;
+}
+
+.c-container .f13 .c-showurl span:before {
+    content: '百家号';
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    height: 75px;
+    width: 75px;
+    margin-top: calc(-75px / 2);
+    border-radius: 50%;
+    color: #F56C6C;
+    border: 2px solid #F56C6C;
+    font-size: 20px;
+    transform: rotate(330deg);
+    letter-spacing: 2px;
+    line-height: 75px;
+    text-align: center;
+    opacity: 0.8;
+    font-weight: 700;
+} */
