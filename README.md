@@ -1,5 +1,7 @@
 # 百度轻·重构 / Baidu Lite Rebuild 
 
+# ⚠ 此项目已过于久远，且百度经过数次更迭，可能无法适配。
+
 ### 这是一个优化百度首页和搜索结果页、契合当代UI设计、减少广告可见面积的「百度Lite」
 借鉴发布在Stylish上名为[「百度轻」](https://userstyles.org/styles/123858/baidu-lite)的样式表([Github](https://github.com/pancao/baidulite))，重构结构优化样式表，适配当前的百度。
 
